@@ -1,7 +1,8 @@
-# 내가 푼 풀이
 import time
 
 start_time = time.time()  # 측정 시작
+################################################################
+# 내가 푼 풀이
 
 n, k = map(int, input().split())
 
@@ -37,6 +38,6 @@ print(count)
 # # 마지막으로 남은 수에 대하여 1씩 빼기
 # result += (n - 1)
 # print(result)
-
+################################################################
 end_time = time.time()  # 측정 종료
 print("time:", end_time - start_time)  # 수행 시간 출력
