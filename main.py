@@ -3,11 +3,14 @@
 #start_time = time.time()  # 측정 시작
 ################################################################
 # 내가 푼 풀이
-print('|\\_/|')
-print('|q p|   /}')
-print('( 0 )\"\"\"\\')
-print('|"^"`    |')
-print('||_/=\\\\__|')
+A, B = map(int, input().split())
+
+if A > B:
+  print('>')
+elif A < B:
+  print('<')
+else:
+  print('==')
 
 # 답지 풀이
 
