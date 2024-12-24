@@ -3,14 +3,14 @@
 #start_time = time.time()  # 측정 시작
 ################################################################
 # 내가 푼 풀이
-A, B = map(int, input().split())
-
-if A > B:
-  print('>')
-elif A < B:
-  print('<')
-else:
-  print('==')
+while True:
+  try:
+    A, B = map(int, input().split())
+    if A == 0 and B == 0:
+      break
+    print(A + B)
+  except:
+    break
 
 # 답지 풀이
 
