@@ -3,14 +3,12 @@
 #start_time = time.time()  # 측정 시작
 ################################################################
 # 내가 푼 풀이
-while True:
-  try:
-    A, B = map(int, input().split())
-    if A == 0 and B == 0:
-      break
-    print(A + B)
-  except:
-    break
+import sys
+    
+N = int(sys.stdin.readline().rstrip())
+for _ in range(N):
+  S = sys.stdin.readline().rstrip()
+  print(f'{S[0]}{S[len(S)-1]}')
 
 # 답지 풀이
 
